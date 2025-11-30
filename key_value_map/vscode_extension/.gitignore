@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code debug output
+.vscode/
+# keep only launch.json if needed:
+# !.vscode/launch.json
+
+# Build output (vsix packages)
+*.vsix
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional cache
+out/
+dist/
+build/
+
+# TypeScript (if using later)
+*.tsbuildinfo
