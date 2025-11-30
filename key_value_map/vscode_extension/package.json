@@ -1,0 +1,22 @@
+{
+  "name": "key-value-map",
+  "displayName": "Key Value Map",
+  "description": "Simple local key-value store extension.",
+  "version": "0.0.1",
+  "publisher": "yourname",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:keyValue.open"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "keyValue.open",
+        "title": "Open Key Value Map"
+      }
+    ]
+  }
+}
