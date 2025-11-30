@@ -1,0 +1,28 @@
+{
+  "name": "todo-api-extension",
+  "displayName": "Todo API Extension",
+  "description": "Simple Todo app in VS Code using external Node.js API",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:todoApi.open"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "todoApi.open",
+        "title": "Open Todo API Panel"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  }
+}

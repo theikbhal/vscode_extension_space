@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Data files (optional — keep if you want)
+# If you want to ignore todos.json from git:
+# data/todos.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build artifacts (if any)
+dist/
+build/
